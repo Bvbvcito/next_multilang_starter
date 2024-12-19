@@ -1,0 +1,25 @@
+.navbar {
+  .navbar-items {
+    @apply sm:flex flex-grow justify-center gap-5  md:gap-10 hidden text-sm;
+  }
+
+  .logo-container {
+    @apply font-black text-red-500;
+  }
+
+  .contact-container {
+    @apply bg-red-500 rounded-full text-white text-sm px-3 py-2;
+  }
+
+  .navbar-layout {
+    @apply text-slate-600 mx-auto h-[80px] w-full max-w-7xl flex  items-center justify-between px-4;
+  }
+
+  .nav-container {
+    @apply sticky top-0 left-0 w-full flex items-center justify-between px-4 py-3 transition-all duration-300;
+  }
+
+  .mobile-menu {
+    @apply sm:hidden;
+  }
+}

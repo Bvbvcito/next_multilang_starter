@@ -1,0 +1,11 @@
+{
+  "HomePage": {
+    "title": "Bonjour monde",
+    "about": "Aller a la page a propos"
+  },
+  "About": {
+    "title": "Page à propos",
+    "about": "Aller à la page a propos",
+    "back": "Retour"
+  }
+}
